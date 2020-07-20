@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "start-forever": "forever start index.js",
+    "stop-forever": "forever stop index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "forever": "^3.0.0"
   }
 }
